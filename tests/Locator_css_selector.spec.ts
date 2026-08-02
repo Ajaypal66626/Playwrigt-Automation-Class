@@ -3,7 +3,7 @@ import {test,expect} from '@playwright/test'
 test('Locator Css selector', async({page})=>
 {
 
-    await page.goto('https://tutorialsninja.com/demo/index.php?route=product/category&path=18');
+    await page.goto('https://tutorialsninja.com/demo/index.php?route=account/register');
     await page.waitForLoadState();
 
     await page.locator('input#input-firstname').fill('Ajay pal'); //Locator By ID: tagname#id_name or #id_name
