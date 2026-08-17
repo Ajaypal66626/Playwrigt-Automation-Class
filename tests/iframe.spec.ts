@@ -17,10 +17,4 @@ test('Locator Css selector', async({page})=>
    await frame3.locator('#glaf').first().fill('AAAAAAA')
    await page.waitForTimeout(4000)
 
-
-
-
-  
-
-
 });
